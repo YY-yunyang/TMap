@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "MyNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ViewController *TVC = [[ViewController alloc] init];
+    MyNavigationController *navi = [[MyNavigationController alloc] initWithRootViewController:TVC];
+    [navi.navigationBar setTitleTextAttributes: @{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    navi.navigationBar.barTintColor = [UIColor blackColor];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    [[QMapServices sharedServices] setApiKey:@"3DFBZ-STC3Q-COV5B-GMWXZ-REXPJ-UMFTJ"];
+    [[QMSSearchServices sharedServices] setApiKey:@"3DFBZ-STC3Q-COV5B-GMWXZ-REXPJ-UMFTJ"];
+    
     return YES;
 }
 

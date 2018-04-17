@@ -15,6 +15,21 @@
 		8496DAAF207A5A8200BB0A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAAE207A5A8200BB0A6C /* main.m */; };
 		8496DAB9207A5A8200BB0A6C /* TMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAB8207A5A8200BB0A6C /* TMapTests.m */; };
 		8496DAC4207A5A8200BB0A6C /* TMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAC3207A5A8200BB0A6C /* TMapUITests.m */; };
+		8496DAD4207A6AA700BB0A6C /* TMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAD3207A6AA700BB0A6C /* TMapViewController.m */; };
+		8496DADA207B387200BB0A6C /* ZLYSearchBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAD9207B387200BB0A6C /* ZLYSearchBtn.m */; };
+		8496DADD207B48E600BB0A6C /* SeacherResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DADC207B48E600BB0A6C /* SeacherResultTableViewController.m */; };
+		849A9E65207C9FD300756E0B /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A9E64207C9FD300756E0B /* MyNavigationController.m */; };
+		84A515422083554D00844AF3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515412083554D00844AF3 /* libsqlite3.tbd */; };
+		84A515442083555600844AF3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515432083555600844AF3 /* libz.tbd */; };
+		84A515462083555F00844AF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515452083555F00844AF3 /* SystemConfiguration.framework */; };
+		84A515482083557000844AF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515472083557000844AF3 /* QuartzCore.framework */; };
+		84A5154A2083557C00844AF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515492083557C00844AF3 /* CoreLocation.framework */; };
+		84A5154C2083558500844AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A5154B2083558500844AF3 /* Foundation.framework */; };
+		84A5154E2083559000844AF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A5154D2083559000844AF3 /* CoreGraphics.framework */; };
+		84A51553208358B100844AF3 /* QMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A51551208358B100844AF3 /* QMapKit.framework */; };
+		84A51554208358B100844AF3 /* QMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A51552208358B100844AF3 /* QMapSearchKit.framework */; };
+		84A515582083AA4A00844AF3 /* QMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515552083AA4A00844AF3 /* QMapSearchKit.framework */; };
+		84A515592083AA4A00844AF3 /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84A515562083AA4A00844AF3 /* QMapKit.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,27 @@
 		8496DABF207A5A8200BB0A6C /* TMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496DAC3207A5A8200BB0A6C /* TMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMapUITests.m; sourceTree = "<group>"; };
 		8496DAC5207A5A8200BB0A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496DAD2207A6AA700BB0A6C /* TMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapViewController.h; sourceTree = "<group>"; };
+		8496DAD3207A6AA700BB0A6C /* TMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMapViewController.m; sourceTree = "<group>"; };
+		8496DAD8207B387200BB0A6C /* ZLYSearchBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLYSearchBtn.h; sourceTree = "<group>"; };
+		8496DAD9207B387200BB0A6C /* ZLYSearchBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYSearchBtn.m; sourceTree = "<group>"; };
+		8496DADB207B48E600BB0A6C /* SeacherResultTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeacherResultTableViewController.h; sourceTree = "<group>"; };
+		8496DADC207B48E600BB0A6C /* SeacherResultTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeacherResultTableViewController.m; sourceTree = "<group>"; };
+		8496DADE207B4E1D00BB0A6C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		849A9E63207C9FD300756E0B /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		849A9E64207C9FD300756E0B /* MyNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		84A515412083554D00844AF3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		84A515432083555600844AF3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		84A515452083555F00844AF3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84A515472083557000844AF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84A515492083557C00844AF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84A5154B2083558500844AF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84A5154D2083559000844AF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84A51551208358B100844AF3 /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QMapKit.framework; path = TMap/TMapSDK/QMapKit.framework; sourceTree = "<group>"; };
+		84A51552208358B100844AF3 /* QMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QMapSearchKit.framework; path = TMap/TMapSDK/QMapSearchKit.framework; sourceTree = "<group>"; };
+		84A515552083AA4A00844AF3 /* QMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSearchKit.framework; sourceTree = "<group>"; };
+		84A515562083AA4A00844AF3 /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QMapKit.bundle; sourceTree = "<group>"; };
+		84A515572083AA4A00844AF3 /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A51553208358B100844AF3 /* QMapKit.framework in Frameworks */,
+				84A51554208358B100844AF3 /* QMapSearchKit.framework in Frameworks */,
+				84A5154E2083559000844AF3 /* CoreGraphics.framework in Frameworks */,
+				84A5154C2083558500844AF3 /* Foundation.framework in Frameworks */,
+				84A5154A2083557C00844AF3 /* CoreLocation.framework in Frameworks */,
+				84A515482083557000844AF3 /* QuartzCore.framework in Frameworks */,
+				84A515582083AA4A00844AF3 /* QMapSearchKit.framework in Frameworks */,
+				84A515462083555F00844AF3 /* SystemConfiguration.framework in Frameworks */,
+				84A515442083555600844AF3 /* libz.tbd in Frameworks */,
+				84A515422083554D00844AF3 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +124,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A8F993CC0A2A3C50607137A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A51551208358B100844AF3 /* QMapKit.framework */,
+				84A51552208358B100844AF3 /* QMapSearchKit.framework */,
+				84A5154D2083559000844AF3 /* CoreGraphics.framework */,
+				84A5154B2083558500844AF3 /* Foundation.framework */,
+				84A515492083557C00844AF3 /* CoreLocation.framework */,
+				84A515472083557000844AF3 /* QuartzCore.framework */,
+				84A515452083555F00844AF3 /* SystemConfiguration.framework */,
+				84A515432083555600844AF3 /* libz.tbd */,
+				84A515412083554D00844AF3 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8496DA93207A5A8100BB0A6C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,7 @@
 				8496DAB7207A5A8200BB0A6C /* TMapTests */,
 				8496DAC2207A5A8200BB0A6C /* TMapUITests */,
 				8496DA9D207A5A8100BB0A6C /* Products */,
+				4A8F993CC0A2A3C50607137A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +164,21 @@
 		8496DA9E207A5A8100BB0A6C /* TMap */ = {
 			isa = PBXGroup;
 			children = (
+				84A515502083578300844AF3 /* TMapSDK */,
 				8496DA9F207A5A8100BB0A6C /* AppDelegate.h */,
 				8496DAA0207A5A8100BB0A6C /* AppDelegate.m */,
+				849A9E63207C9FD300756E0B /* MyNavigationController.h */,
+				849A9E64207C9FD300756E0B /* MyNavigationController.m */,
 				8496DAA2207A5A8100BB0A6C /* ViewController.h */,
 				8496DAA3207A5A8100BB0A6C /* ViewController.m */,
+				8496DAD2207A6AA700BB0A6C /* TMapViewController.h */,
+				8496DAD3207A6AA700BB0A6C /* TMapViewController.m */,
+				8496DADB207B48E600BB0A6C /* SeacherResultTableViewController.h */,
+				8496DADC207B48E600BB0A6C /* SeacherResultTableViewController.m */,
+				8496DAD8207B387200BB0A6C /* ZLYSearchBtn.h */,
+				8496DAD9207B387200BB0A6C /* ZLYSearchBtn.m */,
 				8496DAA5207A5A8100BB0A6C /* Main.storyboard */,
+				8496DADE207B4E1D00BB0A6C /* PrefixHeader.pch */,
 				8496DAA8207A5A8200BB0A6C /* Assets.xcassets */,
 				8496DAAA207A5A8200BB0A6C /* LaunchScreen.storyboard */,
 				8496DAAD207A5A8200BB0A6C /* Info.plist */,
@@ -130,6 +203,16 @@
 				8496DAC5207A5A8200BB0A6C /* Info.plist */,
 			);
 			path = TMapUITests;
+			sourceTree = "<group>";
+		};
+		84A515502083578300844AF3 /* TMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				84A515562083AA4A00844AF3 /* QMapKit.bundle */,
+				84A515572083AA4A00844AF3 /* QMapKit.framework */,
+				84A515552083AA4A00844AF3 /* QMapSearchKit.framework */,
+			);
+			path = TMapSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8496DAAC207A5A8200BB0A6C /* LaunchScreen.storyboard in Resources */,
+				84A515592083AA4A00844AF3 /* QMapKit.bundle in Resources */,
 				8496DAA9207A5A8200BB0A6C /* Assets.xcassets in Resources */,
 				8496DAA7207A5A8100BB0A6C /* Main.storyboard in Resources */,
 			);
@@ -262,8 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8496DADA207B387200BB0A6C /* ZLYSearchBtn.m in Sources */,
+				8496DAD4207A6AA700BB0A6C /* TMapViewController.m in Sources */,
 				8496DAA4207A5A8100BB0A6C /* ViewController.m in Sources */,
 				8496DAAF207A5A8200BB0A6C /* main.m in Sources */,
+				849A9E65207C9FD300756E0B /* MyNavigationController.m in Sources */,
+				8496DADD207B48E600BB0A6C /* SeacherResultTableViewController.m in Sources */,
 				8496DAA1207A5A8100BB0A6C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,32 +520,70 @@
 		8496DAC9207A5A8200BB0A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA99E2ML8F;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TMap/TMapSDK",
+				);
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TMap/PrefixHeader.pch";
 				INFOPLIST_FILE = TMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = c.TMap;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TMap/TMapSDK\"";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/TMap/TMapSDK/QMapKit.framework/QMapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = c.webView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8496DACA207A5A8200BB0A6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA99E2ML8F;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TMap/TMapSDK",
+				);
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TMap/PrefixHeader.pch";
 				INFOPLIST_FILE = TMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = c.TMap;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TMap/TMapSDK\"";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/TMap/TMapSDK/QMapKit.framework/QMapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = c.webView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

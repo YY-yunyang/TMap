@@ -7,7 +7,25 @@
 		<key>TMap.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8496DA9B207A5A8100BB0A6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8496DAB3207A5A8200BB0A6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8496DABE207A5A8200BB0A6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
