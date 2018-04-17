@@ -16,7 +16,6 @@
 		8496DAB9207A5A8200BB0A6C /* TMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAB8207A5A8200BB0A6C /* TMapTests.m */; };
 		8496DAC4207A5A8200BB0A6C /* TMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAC3207A5A8200BB0A6C /* TMapUITests.m */; };
 		8496DAD4207A6AA700BB0A6C /* TMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAD3207A6AA700BB0A6C /* TMapViewController.m */; };
-		8496DADA207B387200BB0A6C /* ZLYSearchBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DAD9207B387200BB0A6C /* ZLYSearchBtn.m */; };
 		8496DADD207B48E600BB0A6C /* SeacherResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496DADC207B48E600BB0A6C /* SeacherResultTableViewController.m */; };
 		849A9E65207C9FD300756E0B /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A9E64207C9FD300756E0B /* MyNavigationController.m */; };
 		84A515422083554D00844AF3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A515412083554D00844AF3 /* libsqlite3.tbd */; };
@@ -68,8 +67,6 @@
 		8496DAC5207A5A8200BB0A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8496DAD2207A6AA700BB0A6C /* TMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapViewController.h; sourceTree = "<group>"; };
 		8496DAD3207A6AA700BB0A6C /* TMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMapViewController.m; sourceTree = "<group>"; };
-		8496DAD8207B387200BB0A6C /* ZLYSearchBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLYSearchBtn.h; sourceTree = "<group>"; };
-		8496DAD9207B387200BB0A6C /* ZLYSearchBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYSearchBtn.m; sourceTree = "<group>"; };
 		8496DADB207B48E600BB0A6C /* SeacherResultTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeacherResultTableViewController.h; sourceTree = "<group>"; };
 		8496DADC207B48E600BB0A6C /* SeacherResultTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeacherResultTableViewController.m; sourceTree = "<group>"; };
 		8496DADE207B4E1D00BB0A6C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -175,8 +172,6 @@
 				8496DAD3207A6AA700BB0A6C /* TMapViewController.m */,
 				8496DADB207B48E600BB0A6C /* SeacherResultTableViewController.h */,
 				8496DADC207B48E600BB0A6C /* SeacherResultTableViewController.m */,
-				8496DAD8207B387200BB0A6C /* ZLYSearchBtn.h */,
-				8496DAD9207B387200BB0A6C /* ZLYSearchBtn.m */,
 				8496DAA5207A5A8100BB0A6C /* Main.storyboard */,
 				8496DADE207B4E1D00BB0A6C /* PrefixHeader.pch */,
 				8496DAA8207A5A8200BB0A6C /* Assets.xcassets */,
@@ -346,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8496DADA207B387200BB0A6C /* ZLYSearchBtn.m in Sources */,
 				8496DAD4207A6AA700BB0A6C /* TMapViewController.m in Sources */,
 				8496DAA4207A5A8100BB0A6C /* ViewController.m in Sources */,
 				8496DAAF207A5A8200BB0A6C /* main.m in Sources */,
