@@ -29,39 +29,39 @@
 
 @interface TMapViewController ()<CLLocationManagerDelegate,UISearchResultsUpdating,UISearchControllerDelegate,UITableViewDelegate,UITableViewDataSource,QMapViewDelegate,QMSSearchDelegate,SeacherResultTableViewControllerDelegete,UISearchBarDelegate>
 
-// 管理定位权限
+/// 管理定位权限
 @property (nonatomic, strong) CLLocationManager *locationManager;
 
 @property (nonatomic, strong) UISearchController *searchController;
-// 地图
+/// 地图
 @property (nonatomic, strong) QMapView *mapView;
-// 地理信息搜索
+/// 地理信息搜索
 @property (nonatomic, strong) QMSSearcher *mapSearcher;
-// 逆地理编码结果
+/// 逆地理编码结果
 @property (nonatomic, strong) QMSReverseGeoCodeSearchResult *reGeoResult;
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UIImageView *redPinImageView;
 @property (nonatomic, strong) UIButton *foucsBtn;
 
-// 记录第一次进入地图界面的坐标
+/// 记录第一次进入地图界面的坐标
 @property (nonatomic, assign) CLLocationCoordinate2D userCoordinate2D;
-// 记录坐标变化前的最后一次的坐标
+/// 记录坐标变化前的最后一次的坐标
 @property (nonatomic, assign) CLLocationCoordinate2D lastCoordinate2D;
-// 记录查询界面返回的结果
+/// 记录查询界面返回的结果
 @property (nonatomic, strong) QMSSuggestionPoiData *searcherPoiData;
 
-// 记录被选中的行数
+/// 记录被选中的行数
 @property (nonatomic, assign) NSInteger selectRow;
-// 缓存位移，用于判断是向下偏移还是向下偏移
+/// 缓存位移，用于判断是向下偏移还是向下偏移
 @property (nonatomic, assign) CGFloat oldOffset;
-// 记录地图放缩前的大小
+/// 记录地图放缩前的大小
 @property (nonatomic, assign) double zoomLevel;
-// 用于标记是否是点击cell造成的位移，如果是，则不进行反地理编码操作，默认为NO
+/// 用于标记是否是点击cell造成的位移，如果是，则不进行反地理编码操作，默认为NO
 @property (nonatomic, assign) BOOL isDidSelectRow;
-// 用于标记是否是搜索界面回掉产生的位移，默认为NO
+/// 用于标记是否是搜索界面回掉产生的位移，默认为NO
 @property (nonatomic, assign) BOOL isSearchResult;
-// 用于标记是否是因为拖拽tableView产生的位移
+/// 用于标记是否是因为拖拽tableView产生的位移
 @property (nonatomic, assign) BOOL isDraggingTableView;
 
 @end
@@ -209,7 +209,7 @@
     [self.mapSearcher searchWithReverseGeoCodeSearchOption:reGeoSearchOption];
 }
 
-/// 变更按钮状态
+/// @brief 变更地图右下侧区域的按钮状态 @param coordinate2D 地图中心点的经纬度
 - (void)changeFoucsBtnStatusWithCoordinate2D:(CLLocationCoordinate2D)coordinate2D {
     
     /* 此更新foucsBtn.selected状态的方式要允许存在偏差 */
@@ -265,7 +265,7 @@
 }
 
 #pragma mark ---- UISearchResultsUpdating(输入内容时触发)
-/// 搜索栏内容发生变化时触发
+// 搜索栏内容发生变化时触发
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController {
     
     if (searchController.searchBar.text.length > 0) {
@@ -469,7 +469,7 @@
     }];
 }
 
-// 小图钉动画
+/// 小图钉动画
 - (void)mapViewRedPinImageViewAnimate {
     
     [UIView animateKeyframesWithDuration:0.5 delay:0 options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
@@ -573,7 +573,7 @@
     return _searchController;
 }
 
-/// 将放大镜和占位字符居中
+/// 将放大镜和占位字符居中/居左（仅对系统iOS11.0后有效）@param searchBar 将要对相关元素居中/居左的searchBar @param isCenter 是否居中，YSE：居中，NO：居左
 - (void)setPositonAdjustmentWithSearchBar:(UISearchBar *)searchBar isCenter:(BOOL)isCenter {
     
     if (@available(iOS 11.0, *)) {
@@ -591,7 +591,7 @@
     }
 }
 
-/// 计算placeholder、icon、间距的总宽度，系统默认字体大小15
+/// @brief 计算placeholder、icon、间距的总宽度，系统默认字体大小15 @param placeholder 用于计算宽度的字符串 @return 字符串的宽度
 - (CGFloat)widthWithdtPlaceholder:(NSString *)placeholder {
 
     CGSize size = [placeholder boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15]} context:nil].size;

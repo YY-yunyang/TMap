@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/// 自定义的查询结果界面的协议，用于传递查询结果界面的相关操作
 @protocol SeacherResultTableViewControllerDelegete <NSObject>
 
-/*
+@optional
+
+/*!
  *@brief 用于获取搜索界面的择值
  *
  *@param Poi 位置的具体信息，包含名字、经纬度等
